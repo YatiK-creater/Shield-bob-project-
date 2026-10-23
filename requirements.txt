@@ -1,0 +1,13 @@
+# PhishShield — Requirements
+# No external packages needed.
+# This project uses only Python built-in libraries.
+#
+# Built-in libraries used (no install required):
+#   - http.server   → runs the local web server
+#   - collections   → Counter used to count sent records
+#
+# Requirements:
+#   Python 3.8 or newer
+#
+# To run the app:
+#   python shield.py
