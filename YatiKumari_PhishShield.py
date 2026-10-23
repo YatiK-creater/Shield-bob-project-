@@ -918,7 +918,8 @@ class Handler(BaseHTTPRequestHandler):
 # START SERVER
 # ─────────────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    PORT = 8080
+    PORT = 8081
+
     server = HTTPServer(("", PORT), Handler)
     print(f"\n  PhishShield is running!")
     print(f"  Open your browser and go to: http://localhost:{PORT}\n")
